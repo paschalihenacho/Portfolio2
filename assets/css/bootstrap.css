@@ -4228,6 +4228,14 @@ input[type="button"].btn-block {
 .navbar-brand {
   position: relative;
 }
+
+.nav-item>li {
+  border-right: 1px solid #000;
+}
+
+.nav-item>li:last-child{
+  border: none;
+}
 .nav {
   display: -ms-flexbox;
   display: flex;
