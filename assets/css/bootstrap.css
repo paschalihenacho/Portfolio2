@@ -4225,6 +4225,9 @@ input[type="button"].btn-block {
   }
 }
 
+.navbar-brand {
+  position: relative;
+}
 .nav {
   display: -ms-flexbox;
   display: flex;
@@ -4232,8 +4235,7 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   padding-left: 0;
   margin-bottom: 0;
-  list-style: none;
-  background-color: var(--blue);
+  list-style: none
 }
 
 .nav-link {
