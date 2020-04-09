@@ -18,10 +18,11 @@ body {
   height: 100%
 }
 
-/* nav {
-  background-image: linear-gradient(to left, #53a4e3, #daf7f8);
+nav {
+  /* background-image: linear-gradient(to left, #53a4e3, #daf7f8); */
+  width: 100%;
   
-} */
+} 
 
 
 #name,
@@ -57,8 +58,14 @@ body {
   max-width: 100%;
 }
 
+#portfolio {
+  padding-top: 50px;
+}
+
 .jumbotron {
   height: 500px;
+  background-color: transparent;
+  width: 100%;
 }
 
 footer {
