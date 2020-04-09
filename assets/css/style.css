@@ -14,7 +14,6 @@ a,
 button {
   
   font-size: 16px;
-  text-decoration-color: white;
   font-weight: bolder;
 }
 
@@ -22,7 +21,7 @@ button {
 
 a {
   font-size: large;
-  font-family: "fantasy, Tangerine , Montserrat", sans-serif;
+  font-family: "fantasy, Tangerine", sans-serif;
 }
 
 body {
