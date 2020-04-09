@@ -15,6 +15,7 @@ a {
 body {
   /* background-color: #daf7f8; */
   background-image: linear-gradient(to right, #53a4e3, #daeded, #daf7f8);
+  height: 100%
 }
 
 /* nav {
@@ -47,6 +48,14 @@ body {
   /* background-image: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b) */
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
 /*---Media Queries --*/
 @media (max-width: 992px) {}
 
@@ -99,10 +108,6 @@ figure {
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
   padding: 1rem;
-}
-
-footer {
-  padding-bottom: 60px;
 }
 
 
