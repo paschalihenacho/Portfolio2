@@ -13,33 +13,38 @@ a {
 }
 
 body {
-  background-color: #daf7f8;
+  /* background-color: #daf7f8; */
+  background-image: linear-gradient(to right, #53a4e3, #daeded, #daf7f8);
 }
 
-nav {
+/* nav {
   background-image: linear-gradient(to left, #53a4e3, #daf7f8);
   
-}
+} */
+
 
 #name,
 #title {
   padding-top: 25px;
+  padding-left: 4px;
 }
 
 #title {
-  font-size: smaller;
+  font-size: 16px;
   font-family: "fantasy";
-  font-weight: 800;
+  font-weight: lighter;
+  
 }
 
 #name {
   float: left;
   font-size: large;
+  font-weight: 900;
 }
 
 #profileImage {
   float: left;
-  background-image: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b)
+  /* background-image: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b) */
 }
 
 /*---Media Queries --*/
