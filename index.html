@@ -31,28 +31,105 @@
 			<div class=" collapse navbar-collapse" id="navbarResponsive">
 				<ul class=" navbar-nav nav-pills ml-auto">
 					<li class="nav-item">
-						<a class=" d-inline-block nav-link active" href="#">About Me</a>
+						<a class=" d-inline-block nav-link active" href="#about-me">About Me</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Portfolio</a>
+						<a class="nav-link" href="#portfolio">Portfolio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
+						<a class="nav-link" href="contact">Contact</a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
+	<!--- Jumbotron (About Me) -->
+	<div id="about-me" class="jumbotron">
+		<h1 class="display-4">Hello, world!</h1>
+		<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+		<hr class="my-4">
+		<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+		<a class="btn btn-primary btn-lg" href="#" role="button">Contact me</a>
+	  </div>
 
-	<!--- Image Slider -->
+	  <hr class="my-4">
+	  <!-- Fixed background -->
+	  <figure>
+		  <div class="fixed-wrap">
+			  <div id="fixed">
+			  </div>
+		  </div>
+	  </figure>
+	  
+	  <!-- Emoji Section -->
+	  <button class="fun btn-primary" data-toggle="collapse" data-target="#emoji">Click for fun
+	  </button>
+	  <div id="emoji" class="collapse">
+		  <div class="container-fluid padding">
+			  <div class="row text-center">
+				  <div class="col-sm-6 col-md-3">
+				  <img class="gif" src="img/gif/panda.gif">
+			  </div>
+			  <div class="col-sm-6 col-md-3">
+				  <img class="gif" src="img/gif/poo.gif">
+			  </div>
+			  <div class="col-sm-6 col-md-3">
+				  <img class="gif" src="img/gif/unicorn.gif">
+			  </div>
+			  <div class="col-sm-6 col-md-3">
+				  <img class="gif" src="img/gif/chicken.gif">
+			  </div>
+			  </div>
+		  </div>
+	  </div>
+	  
 
-
-	<!--- Jumbotron -->
-
-
-	<!--- Welcome Section -->
-
-
+	<!--- Portfolio Section -->
+	<div id="portfolio" class="cintainer-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Projects</h1>
+			</div>
+			<hr>
+		</div> 
+		</div>
+		
+		<!--- Cards -->
+		<div class="container-fluid padding">
+			<div class="row padding">
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="img/revents.png">
+						<div class="card-body">
+							<h4 class="card-title">Re-Vent</h4>
+							<p class="card-text">Re-Vents is an event hosting web application.</p>
+							<a href="http://bit.ly/reventsdemo" class="btn btn-outline-secondary">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="img/hamper.png">
+						<div class="card-body">
+							<h4 class="card-title">Hamper Mobile App</h4>
+							<p class="card-text">Hamper is redefining how dry cleaning is done. No longer do you need to deal with the hassle and inconvenience of going out of your way to a brick and mortar location. You can instead take advantage of dry cleaning drop off & delivery from the convenience of your building!</p>
+							<a href="https://www.usehamper.com" class="btn btn-outline-secondary">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<img class="card-img-top" src="img/p3.jpg">
+						<div class="card-body">
+							<h4 class="card-title">School Projects</h4>
+							<p class="card-text">Paschal is a Web and Mobile Application Developer with almost 4 years experience.</p>
+							<a href="#" class="btn btn-outline-secondary">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
 	<!--- Three Column Section -->
 
 
@@ -82,7 +159,7 @@
 		<div >
 			<div class="row text-center">
 				<div class="container">
-					<hr class="bg-dark">
+					<hr class="bg-light">
 					<span class="text-muted">&copy; Paschal Ihenacho 2020</span>
 				</div>
 				</div>
