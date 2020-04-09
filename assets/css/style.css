@@ -12,7 +12,7 @@
 li,
 a,
 button {
-  font-family: "Tangerine, Montserrat", sans-serif;
+  
   font-size: 16px;
   text-decoration-color: white;
   font-weight: bolder;
@@ -26,6 +26,7 @@ a {
 
 body {
   background-color: #daf7f8;
+  font-family: "Tangerine, Montserrat", sans-serif;
 }
 
 nav {
