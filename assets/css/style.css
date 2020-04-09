@@ -12,11 +12,12 @@
 li,
 a,
 button {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Tangerine, Montserrat", sans-serif;
   font-size: 16px;
   text-decoration-color: white;
-
 }
+
+
 
 a {
   font-size: large;
@@ -37,7 +38,7 @@ nav {
 
 #title {
   font-size: smaller;
-  font-family: fantasy;
+  font-family: "fantasy";
   font-weight: 800;
 }
 
