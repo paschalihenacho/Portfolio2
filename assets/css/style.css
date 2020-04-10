@@ -36,7 +36,7 @@ nav {
 }
 
 #about-me, #hobbies, #portfolio, #contact-me  {
-  background-color: #e6e6e6 !important;
+  /* background-color: #e6e6e6 !important; */
 }
 
 h1 {
@@ -52,12 +52,13 @@ h1 {
 
 #about-me {
   padding-top:100px;
-  padding-bottom:100px;
 }
 
 #about-me {
-  border: 40px;
-  border-color: #660033;
+  border-style: solid;
+  border: 50px solid #660033 !important;
+  border-width: 20px;
+  display: inline-block;
   
 }
 
