@@ -35,7 +35,7 @@ nav {
   /* background-color: transparent; */
 }
 
-#about-me, #hobbies {
+#about-me, #hobbies, #portfolio, #contact-me  {
   background-color: #e6e6e6 !important;
 }
 
@@ -55,7 +55,16 @@ h1 {
   padding-bottom:100px;
 }
 
+#about-me {
+  border: 40px;
+  border-color: #660033;
+  
+}
 
+/* #hobbyimages {
+  height: 500px;
+  width: 500px;
+} */
 /* #name,
 #title {
   padding-top: 25px;
