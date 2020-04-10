@@ -36,7 +36,16 @@ nav {
 }
 
 #about-me, #hobbies, #portfolio, #contact-me  {
-  /* background-color: #e6e6e6 !important; */
+  background-color: thistle !important;
+  border-style: solid;
+  border: 20px solid #660033 !important;
+  border-width: 20px;
+  display: inline-block;
+}
+
+#hobbies {
+  background-color: transparent;
+  opacity: 1px;
 }
 
 h1 {
@@ -54,13 +63,6 @@ h1 {
   padding-top:100px;
 }
 
-#about-me {
-  border-style: solid;
-  border: 50px solid #660033 !important;
-  border-width: 20px;
-  display: inline-block;
-  
-}
 
 /* #hobbyimages {
   height: 500px;
