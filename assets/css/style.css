@@ -49,12 +49,15 @@ nav {
 }
 
 h1 {
-  color: #cc0066;
+  color: #660033;
   font-weight: bold;
   text-align: center;
 }
+h2 {
+  color: #8f0d56;
+}
 
-#h-line {
+hr {
   background-color: #660033;
   padding: 2px;
 }
