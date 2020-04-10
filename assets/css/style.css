@@ -86,6 +86,10 @@ hr {
   padding-left: 4px;
 } */
 
+#cards {
+  padding-right: 1px !important;
+}
+
 #title {
   font-size: 16px;
   font-family: "fantasy";
