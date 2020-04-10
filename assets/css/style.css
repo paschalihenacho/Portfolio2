@@ -35,12 +35,19 @@ nav {
   /* background-color: transparent; */
 }
 
-#about-me {
-  background-image: linear-gradient(180deg, #53a4e3, #daf7f8) !important;
+#about-me, #hobbies {
+  background-color: #e6e6e6 !important;
 }
+
 h1 {
-  color: #e500e7;
+  color: #cc0066;
   font-weight: bold;
+  text-align: center;
+}
+
+#h-line {
+  background-color: #660033;
+  padding: 2px;
 }
 
 #about-me {
