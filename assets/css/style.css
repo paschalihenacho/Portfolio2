@@ -10,26 +10,49 @@
 a {
   font-size: large;
   font-family: "fantasy, Tangerine", sans-serif;
+  text-align: left;
+
+  color: #ffffff !important;
 }
 
 body {
   /* background-color: #daf7f8; */
-  background-image: linear-gradient(to right, #53a4e3, #daeded, #daf7f8);
-  height: 100%
+  background-color: #660033;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 nav {
   /* background-image: linear-gradient(to left, #53a4e3, #daf7f8); */
   width: 100%;
-  
+  height: auto;
 } 
 
+#navigation {
+  background-color: #660033!important;
+  /* background-color: transparent; */
+}
 
-#name,
+#about-me {
+  background-image: linear-gradient(180deg, #53a4e3, #daf7f8) !important;
+}
+h1 {
+  color: #660033;
+  font-weight: bold;
+}
+
+#about-me {
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+
+/* #name,
 #title {
   padding-top: 25px;
   padding-left: 4px;
-}
+} */
 
 #title {
   font-size: 16px;
@@ -65,6 +88,7 @@ nav {
 .jumbotron {
   height: 500px;
   background-color: transparent;
+  
   width: 100%;
 }
 
@@ -76,6 +100,8 @@ footer {
   color: white;
   text-align: center;
   padding-bottom: 15px;
+  background-color: #660033;
+  padding-top: 15px;
 }
 /*---Media Queries --*/
 @media (max-width: 992px) {}
@@ -128,7 +154,7 @@ figure {
 
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
-  padding: 1rem;
+  padding: 3rem;
 }
 
 

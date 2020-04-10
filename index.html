@@ -15,9 +15,9 @@
 	<link href="./assets/css/style.css" rel="stylesheet">
 </head>
 
-<body class="d-flex flex-column">
+<body data-spy="scroll" data-target=".navbar" data-offset="50" class="d-flex flex-column">
 	<!-- Navigation -->
-	<nav class=" navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+	<!-- <nav class=" navbar navbar-expand-md navbar-dark bg-dark sticky-top">
 		<div class="container-fluid ">
 			<a class="navbar-brand mb-0 h1" href="https://www.linkedin.com/in/paschal-ihenacho/"><img
 					id="profileImage" class=" d-inline-block align-top img-thumbnail rounded rounded-circle"
@@ -42,10 +42,64 @@
 				</ul>
 			</div>
 		</div>
-	</nav>
+	</nav> -->
+
+	<nav id="navigation" class="navbar navbar-expand-md bg-light navbar-light sticky-top"> 
+		<div class="container-fluid ">
+			<a class="navbar-brand mb-0 h1" href="https://www.linkedin.com/in/paschal-ihenacho/"><img
+					id="profileImage" class=" d-inline-block align-top "
+					alt="Profile Image" src="./assets/images/code.png" class=" rounded rounded-circle" width="70" height="70">
+				<div id="name">Paschal Ihenacho</div> <br>
+				<div id="title">Web & Mobile App Developer</div>
+			</a>
+			<button class="nav-btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="topnav collapse navbar-collapse" id="navbarResponsive"> 
+		<ul class="nav navbar-nav ml-auto">
+		  <li class="nav-item">
+			<a class="nav-link" href="#about-me">About Me</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#section2">Section 2</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#section3">Section 3</a>
+		  </li>
+		</ul>
+	</ul>
+</div>
+</div>
+	  </nav>
+	  
+	  <div id="about-me" class="padding container-fluid jumbotron" >
+		
+	<div class="row padding">
+		<div class="col-lg-6">
+			<img src="./assets/images/ProfileImage.jpg" height="300" width="250" class="img-fluid">
+		</div>
+		<div class="col-lg-6">
+			<h1 class="display-8">About Me</h1>
+			<p>Experienced in all levels of software development life cycle including planning, implementation, 
+				testing, documentation, deployment, and maintenance. Supportive and enthusiastic team player 
+				dedicated to streamlining processes and efficiently resolving project issues. 
+				Very successful in a fast-paced environment and enjoys challenges as it increases my ability to learn new things.</p>
+			
+		</div>
+	  <div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+		<h1>Section 2</h1>
+		<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+		<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	  </div>
+	  <div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+		<h1>Section 3</h1>
+		<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+		<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+	  </div>
+
 	<!--- Jumbotron (About Me) -->
 	
-	<div id="about-me" class="jumbotron">
+	<!-- <div id="about-me" class="jumbotron">
 		<h1 class="display-4">Hello, world!</h1>
 		<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
 		<hr class="navbar-dark bg-dark my-4">
@@ -53,17 +107,17 @@
 		<a class="btn btn-primary btn-lg" href="#" role="button">Contact me</a>
 	  </div>
 
-	  <hr class="my-4">
+	  <hr class="my-4"> -->
 	  <!-- Fixed background -->
-	  <figure>
+	  <!-- <figure>
 		  <div class="fixed-wrap">
 			  <div id="fixed">
 			  </div>
 		  </div>
 	  </figure>
-	  
+	   -->
 	  <!-- Emoji Section -->
-	  <button class="fun btn-primary" data-toggle="collapse" data-target="#emoji">Click for fun
+	  <!-- <button class="fun btn-primary" data-toggle="collapse" data-target="#emoji">Click for fun
 	  </button>
 	  <div id="emoji" class="collapse">
 		  <div class="container-fluid padding">
@@ -85,8 +139,8 @@
 	  </div>
 	  
 
-	<!--- Portfolio Section -->
-	<div id="portfolio" class="cintainer-fluid padding">
+	<!-- Portfolio Section -->
+	<!-- <div id="portfolio" class="cintainer-fluid padding">
 		<div class="row welcome text-center">
 			<div class="col-12">
 				<h1 class="display-4">Projects</h1>
@@ -95,8 +149,8 @@
 		</div> 
 		</div>
 		
-		<!--- Cards -->
-		<div class="container-fluid padding">
+		<!-- Cards -->
+		<!-- <div class="container-fluid padding">
 			<div class="row padding">
 				<div class="col-md-4">
 					<div class="card">
@@ -130,11 +184,11 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	
 	<!--- Contact Me -->
 
-	<form id="contact-me">
+	<!-- <form id="contact-me">
 		<div class="form-group ">
 			<div class="col-12">
 				<h1 class="display-4">Contact</h1>
@@ -149,7 +203,7 @@
 		  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 		</div>
 		<button type="submit" class="btn btn-primary">Submit</button>
-	  </form>
+	  </form> -->
 	<!--- Two Column Section -->
 
 
@@ -172,19 +226,10 @@
 
 
 	<!--- Footer -->
-	<footer class="navbar-dark bg-dark">
-		<div >
-			<div class="row text-center">
+	<footer>
 				<div class="container">
-					<hr class="bg-light">
-					<span class="text-muted">&copy; Paschal Ihenacho 2020</span>
-				</div>
-				</div>
+					<span>&copy; Paschal Ihenacho 2020</span>
 		</div>
 		</footer>
-
-
-
 </body>
-
 </html>
