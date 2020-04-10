@@ -31,6 +31,7 @@ nav {
 
 #navigation {
   background-color: #660033!important;
+  position: fixed;
   /* background-color: transparent; */
 }
 
