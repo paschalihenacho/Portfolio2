@@ -64,10 +64,10 @@ h1 {
 }
 
 
-/* #hobbyimages {
-  height: 500px;
-  width: 500px;
-} */
+.hobbyimages {
+  height: 200px;
+  width: 250px;
+} 
 /* #name,
 #title {
   padding-top: 25px;
