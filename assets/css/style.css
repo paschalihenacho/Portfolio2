@@ -11,9 +11,13 @@ a {
   font-size: large;
   font-family: "fantasy, Tangerine", sans-serif;
   text-align: left;
-
   color: #ffffff !important;
 }
+
+/* #name-title {
+
+  color: #ffffff !important;
+} */
 
 body {
   /* background-color: #daf7f8; */
@@ -41,25 +45,30 @@ nav {
   border: 20px solid #660033 !important;
   border-width: 20px;
   display: inline-block;
+  padding-top: 20px !important;
 }
-
-#hobbies {
-  background-color: transparent;
-  opacity: 1px;
+#about-me {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
 }
 
 h1 {
   color: #660033;
   font-weight: bold;
   text-align: center;
+  display:inline;
 }
 h2 {
   color: #8f0d56;
 }
 
+p {
+  color: black;
+}
+
 hr {
   background-color: #660033;
-  padding: 2px;
+  padding: 1px;
 }
 
 #about-me {
