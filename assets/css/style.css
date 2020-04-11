@@ -78,7 +78,7 @@ grid-area: txt-about-me;
 line-height: 2;
 }
 
- @media (min-width: 992px) {
+ @media (max-width: 992px) {
   .about-grid {
     grid-template-areas: 
     "img-selfportrait hd-about"
@@ -112,7 +112,7 @@ line-height: 2;
     }
     
     .hd-about {
-    text-align: left;
+    text-align: center;
     padding-left: 20px;
     }
     
@@ -129,9 +129,17 @@ line-height: 2;
   grid-gap: 10px;
   grid-template-areas: 
   "img-selfportrait img-selfportrait img-selfportrait"
-  "hd-about"
+  "hd-about hd-about hd-about"
   "txt-about-me txt-about-me txt-about-me";
 }
+.img-selfportrait {
+  grid-column: 2 / 2;
+  }
+
+  .hd-about {
+    text-align: center;
+    padding-left: 20px;
+    }
 }
 
 a {
