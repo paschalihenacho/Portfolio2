@@ -78,7 +78,28 @@ grid-area: txt-about-me;
 line-height: 2;
 }
 
-@media (max-width: 992px) {
+ @media (min-width: 992px) {
+  .about-grid {
+    grid-template-areas: 
+    "img-selfportrait hd-about"
+    "img-selfportrait txt-about-me";
+  }
+
+  .img-selfportrait {
+    grid-column: 1 / 2;
+    }
+    
+    .hd-about {
+    text-align: left;
+    padding-left: 15px;
+    }
+    
+    .txt-about-me {
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 768px) {
   .about-grid {
     grid-template-areas: 
     "img-selfportrait hd-about hd-about"
@@ -100,27 +121,16 @@ line-height: 2;
   }
 }
 
-@media (max-width: 992px) {}
-
 @media (max-width: 576px) {
-  .about-grid {
+   .about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 10px;
   grid-template-areas: 
   "img-selfportrait img-selfportrait img-selfportrait"
-  "hd-about hd-about hd-about"
+  "hd-about"
   "txt-about-me txt-about-me txt-about-me";
-}
-
-.img-selfportrait {
-  grid-column: 1 / 1;
-  }
-  
-  .hd-about {
-  text-align: center;
-  padding-left: 20px;
-  }
-  
-  .txt-about-me {
-  padding-left: 20px;
 }
 }
 
