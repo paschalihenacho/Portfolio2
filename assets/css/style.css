@@ -50,7 +50,9 @@
 
 }
 
-.about-grid{
+/* About Me */
+
+ .about-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, auto);
@@ -58,34 +60,69 @@
   grid-template-areas: 
   "img-selfportrait img-selfportrait img-selfportrait"
   "hd-about hd-about hd-about"
-  "txt-about txt-about txt-about";
+  "txt-about-me txt-about-me txt-about-me";
 }
 
-.img-selfportrait{
+.img-selfportrait {
 grid-area: img-selfportrait;
-grid-column: 2/3;
+grid-column: 2 / 3;
 }
 
-.hd-about{
+.hd-about {
 grid-area: hd-about;
 text-align: center;
 }
 
-.txt-about{
-grid-area: txt-about;
+.txt-about-me {
+grid-area: txt-about-me;
 line-height: 2;
 }
 
-@media (max-width: 768px){
-  .about-grid{
+@media (max-width: 992px) {
+  .about-grid {
     grid-template-areas: 
     "img-selfportrait hd-about hd-about"
-    "img-selfportrait txt-about txt-about"
-    "img-selfportrait txt-about txt-about";
+    "img-selfportrait txt-about-me txt-about-me"
+    "img-selfportrait txt-about-me txt-about-me";
   }
 
+  .img-selfportrait {
+    grid-column: 1 / 2;
+    }
+    
+    .hd-about {
+    text-align: left;
+    padding-left: 20px;
+    }
+    
+    .txt-about-me {
+    padding-left: 20px;
+  }
 }
 
+@media (max-width: 992px) {}
+
+@media (max-width: 576px) {
+  .about-grid {
+  grid-template-areas: 
+  "img-selfportrait img-selfportrait img-selfportrait"
+  "hd-about hd-about hd-about"
+  "txt-about-me txt-about-me txt-about-me";
+}
+
+.img-selfportrait {
+  grid-column: 1 / 1;
+  }
+  
+  .hd-about {
+  text-align: center;
+  padding-left: 20px;
+  }
+  
+  .txt-about-me {
+  padding-left: 20px;
+}
+}
 
 a {
   font-size: large;
