@@ -50,6 +50,43 @@
 
 }
 
+.about-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 10px;
+  grid-template-areas: 
+  "img-selfportrait img-selfportrait img-selfportrait"
+  "hd-about hd-about hd-about"
+  "txt-about txt-about txt-about";
+}
+
+.img-selfportrait{
+grid-area: img-selfportrait;
+grid-column: 2/3;
+}
+
+.hd-about{
+grid-area: hd-about;
+text-align: center;
+}
+
+.txt-about{
+grid-area: txt-about;
+line-height: 2;
+}
+
+@media (max-width: 768px){
+  .about-grid{
+    grid-template-areas: 
+    "img-selfportrait hd-about hd-about"
+    "img-selfportrait txt-about txt-about"
+    "img-selfportrait txt-about txt-about";
+  }
+
+}
+
+
 a {
   font-size: large;
   font-family: "fantasy, Tangerine", sans-serif;
