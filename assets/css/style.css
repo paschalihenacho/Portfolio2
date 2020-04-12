@@ -155,10 +155,8 @@ line-height: 2;
 }
 .nav-titles {
   color: thistle !important;
-}
-
-.nav-titles {
-  border-right:1px solid thistle;
+  border-right: 1px solid thistle;
+  line-height: 5px;
 }
 
 #title, #name {
