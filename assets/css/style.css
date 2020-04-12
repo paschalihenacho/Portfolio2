@@ -201,6 +201,10 @@ nav {
   padding-top: 50px !important;
 }
 
+#hobbies, #portfolio {
+  padding-top: 0px !important;
+}
+
 h1 {
   color: #660033;
   font-weight: bold;
@@ -228,6 +232,14 @@ hr {
   height: 200px;
   width: 250px;
 } 
+
+.txt-hobby {
+  width: auto;
+}
+
+.txt-hobby-title {
+  padding-top: 40px !important;
+}
 /* #name,
 #title {
   padding-top: 25px;
@@ -294,6 +306,10 @@ border-color: #8f0d56 !important;
 }
 
 #contact-me {
+  padding-bottom: 30px;
+}
+
+#contact-me-form {
   padding-bottom: 30px;
 }
 
