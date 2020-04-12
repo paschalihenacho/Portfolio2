@@ -282,6 +282,15 @@ hr {
   background-color:  #8f0d56 !important;
 }
 
+.btn {
+border-color: #8f0d56 !important;
+}
+
+.card {
+  background-color: transparent;
+  border-color: #8f0d56;
+}
+
 footer {
   position: fixed;
   left: 0;
