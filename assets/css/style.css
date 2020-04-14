@@ -221,7 +221,7 @@ hr {
 
 .hobbyimages {
   height: 550px;
-  width: 550px;
+  width: auto;
   /* opacity: 0.8; */
 } 
 
