@@ -166,8 +166,8 @@ body {
   /* background-color: #daf7f8; */
   background-color: #660033;
   height: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 nav {
@@ -196,6 +196,12 @@ nav {
 #hobbies, #portfolio {
   padding-top: 0px !important;
 }
+
+/* #portfolio
+ {
+
+  opacity: 0.2;
+} */
 
 h1 {
   color: #660033;
