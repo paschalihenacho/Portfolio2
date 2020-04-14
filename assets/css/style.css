@@ -230,7 +230,8 @@ hr {
  
 }
 .txt-hobby-title {
-color: #FF336B;
+/* color: #FF336B; */
+color: thistle;
 }
 .txt-hobby {
   font-size: x-large;
