@@ -189,6 +189,7 @@ nav {
   border-radius: 40px !important;
   display: inline-block;
 }
+
 #about-me {
   padding-top: 50px !important;
 }
@@ -196,12 +197,6 @@ nav {
 #hobbies, #portfolio {
   padding-top: 0px !important;
 }
-
-/* #portfolio
- {
-
-  opacity: 0.2;
-} */
 
 h1 {
   color: #660033;
@@ -227,8 +222,8 @@ hr {
 
 
 .hobbyimages {
-  height: 200px;
-  width: 250px;
+  height: 350px;
+  width: 350px;
 } 
 
 .txt-hobby {
