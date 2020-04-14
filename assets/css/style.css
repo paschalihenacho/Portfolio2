@@ -224,14 +224,13 @@ hr {
 .hobbyimages {
   height: 350px;
   width: 350px;
+  opacity: 0.4;
 } 
 
-.txt-hobby {
-  width: auto;
-}
-
-.txt-hobby-title {
+.txt-hobby-title, .txt-hobby {
   padding-top: 40px !important;
+  color: white;
+  opacity: 1 !important;
 }
 /* #name,
 #title {
