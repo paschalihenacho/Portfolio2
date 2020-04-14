@@ -40,13 +40,7 @@
 } */
 
 
-.content {
-  height: 100vh;
-  background-color: #ccf;
-  text-align: center;
-  padding-left: 20px;
 
-}
 
 /* CV  */
 #sideNav {
@@ -56,12 +50,21 @@
   margin-left: 0px ;
   width: 165px;
   height: 100vh;
-
 }
 
 #sideNavImage {
   height: 140px;
   width: 130px;
+ position: relative;
+ align-content: center;
+}
+
+.content {
+  height: 100vh;
+  background-color: #ccf;
+  text-align: center;
+  padding-left: 20px;
+
 }
 
 /* #main-content {
