@@ -188,6 +188,7 @@ nav {
   border: 10px solid #660033 !important;
   border-radius: 40px !important;
   display: inline-block;
+  text-align: center;
 }
 
 #about-me {
@@ -204,9 +205,6 @@ h1 {
   text-align: center;
   display:inline;
 }
-h2 {
-  color: #8f0d56;
-}
 
 p {
   color: black;
@@ -222,16 +220,23 @@ hr {
 
 
 .hobbyimages {
-  height: 350px;
-  width: 350px;
-  opacity: 0.4;
+  height: 550px;
+  width: 550px;
+  /* opacity: 0.8; */
 } 
 
 .txt-hobby-title, .txt-hobby {
   padding-top: 40px !important;
-  color: white;
-  opacity: 1 !important;
+ 
 }
+.txt-hobby-title {
+color: #FF336B;
+}
+.txt-hobby {
+  font-size: x-large;
+  color: white;
+}
+
 /* #name,
 #title {
   padding-top: 25px;
