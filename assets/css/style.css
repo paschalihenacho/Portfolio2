@@ -6,6 +6,62 @@
   margin: 0;
   padding: 0;
 }
+/* Testing...*/
+#bodycv {
+  font-family: Open, Arial, sans-serif;
+  overflow: hidden;
+}
+
+#navside {
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  bottom: 0px;
+  width: 200px;
+  background-color: aqua;
+  transform: translate3d(-200px, 0, 0);
+  transition: transform 0.4s ease;
+}
+
+.active-nav, #navside {
+  transform: translate3d(0,0,0);
+}
+
+#navside, #ulside {
+  list-style: none;
+  margin-top: 100px;
+}
+#navside, #ulside, .liside, #aside {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+}
+
+
+.content {
+  height: 100%;
+  background-color: #ccf;
+  text-align: center;
+
+}
+
+/* CV  */
+#main-content {
+  background-color: thistle;
+}
+#cv-side-nav-content {
+  background-color: thistle;
+  width: 165px;
+  height: 100%;
+  position: fixed;
+}
+#side-nav-bar {
+  position: relative;
+}
+
+/* ********************** Portfolio view Template on tablet************************************ */
 
 #template {
   display: grid;
@@ -78,69 +134,6 @@ grid-area: txt-about-me;
 line-height: 2;
 }
 
- @media (max-width: 992px) {
-  .about-grid {
-    grid-template-areas: 
-    "img-selfportrait hd-about"
-    "img-selfportrait txt-about-me";
-  }
-
-  .img-selfportrait {
-    grid-column: 1 / 2;
-    }
-    
-    .hd-about {
-    text-align: left;
-    padding-left: 15px;
-    }
-    
-    .txt-about-me {
-    padding-left: 15px;
-  }
-}
-
-@media (min-width: 768px) {
-  .about-grid {
-    grid-template-areas: 
-    "img-selfportrait hd-about hd-about"
-    "img-selfportrait txt-about-me txt-about-me"
-    "img-selfportrait txt-about-me txt-about-me";
-  }
-
-  .img-selfportrait {
-    grid-column: 1 / 2;
-    }
-    
-    .hd-about {
-    text-align: center;
-    padding-left: 20px;
-    }
-    
-    .txt-about-me {
-    padding-left: 20px;
-  }
-}
-
-@media (max-width: 576px) {
-   .about-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, auto);
-  grid-gap: 10px;
-  grid-template-areas: 
-  "img-selfportrait img-selfportrait img-selfportrait"
-  "hd-about hd-about hd-about"
-  "txt-about-me txt-about-me txt-about-me";
-}
-.img-selfportrait {
-  grid-column: 2 / 2;
-  }
-
-  .hd-about {
-    text-align: center;
-    padding-left: 20px;
-    }
-}
 .navbar-toggler {
   border-color: #ffffff !important;
   background-color: #ffffff;
@@ -192,7 +185,8 @@ nav {
 #about-me, #hobbies, #portfolio, #contact-me  {
   background-color: thistle !important;
   border-style: solid;
-  border: 20px solid #660033 !important;
+  border: 10px solid #660033 !important;
+  border-radius: 40px !important;
   display: inline-block;
 }
 #about-me {
@@ -384,9 +378,71 @@ figure {
   padding: 3rem;
 }
 
+/* ********************************* MEDIA QUERIES *************************************************** */
 
+@media (max-width: 992px) {
+  .about-grid {
+    grid-template-areas: 
+    "img-selfportrait hd-about"
+    "img-selfportrait txt-about-me";
+  }
 
+  .img-selfportrait {
+    grid-column: 1 / 2;
+    }
+    
+    .hd-about {
+    text-align: left;
+    padding-left: 15px;
+    }
+    
+    .txt-about-me {
+    padding-left: 15px;
+  }
+}
 
+@media (min-width: 768px) {
+  .about-grid {
+    grid-template-areas: 
+    "hd-about hd-about hd-about"
+    "img-selfportrait txt-about-me txt-about-me"
+    "img-selfportrait txt-about-me txt-about-me";
+  }
+
+  .img-selfportrait {
+    grid-column: 1 / 2;
+    }
+    
+    .hd-about {
+    text-align: center;
+    padding-left: 20px;
+    }
+    
+    .txt-about-me {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-areas: 
+    "hd-about hd-about hd-about"
+    "img-selfportrait txt-about-me txt-about-me"
+    "img-selfportrait txt-about-me txt-about-me";
+  }
+
+  .img-selfportrait {
+    grid-column: 1 / 2;
+    }
+    
+    .hd-about {
+    text-align: center;
+    padding-left: 20px;
+    }
+    
+    .txt-about-me {
+    padding-left: 20px;
+  }
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
