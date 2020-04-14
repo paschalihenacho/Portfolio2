@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
 
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} */
 /* Testing...*/
 #bodycv {
   font-family: Open, Arial, sans-serif;
@@ -167,9 +167,13 @@ body {
   /* background-color: #daf7f8; */
   background-color: #660033;
   height: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
 }
+
+/* .container {
+  padding: 10px !important;
+} */
 
 nav {
   /* background-image: linear-gradient(to left, #53a4e3, #daf7f8); */
@@ -313,10 +317,19 @@ border-color: #8f0d56 !important;
 
 #contact-me {
   padding-bottom: 30px;
+  padding-top: 100px;
 }
 
 #contact-me-form {
   padding-bottom: 30px;
+  text-align: left !important;
+}
+#btn-submit {
+  width: 100%;
+}
+.btn {
+
+  border-radius: 40px;
 }
 
 footer {
