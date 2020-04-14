@@ -56,22 +56,23 @@
  padding-left: 5px;
 }
 
-.content {
-  height: 100vh;
-  background-color: #ccf;
-  text-align: center;
-  padding-left: 20px;
+#content {
+  
+height: 100vh;
+}
 
+#toggleBtn {
+ position: fixed;
 }
 
 .wrapper {
   padding-top: 100px;
   display: flex;
-  width: 100%;
 }
 
 #sidebar {
   width: 250px;
+  margin-top: 157px;
   position: fixed;
   top: 0;
   left: 0;
