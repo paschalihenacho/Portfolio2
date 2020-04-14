@@ -53,7 +53,7 @@
 }
 
 #sideNavImage {
- padding-left: 10px;
+ padding-left: 5px;
 }
 
 .content {
@@ -78,6 +78,10 @@
 } */
 
 /* ********************** Portfolio view Template on tablet************************************ */
+.container {
+padding: 0px !important;
+margin: 0px;
+}
 
 #template {
   display: grid;
