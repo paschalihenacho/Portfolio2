@@ -7,12 +7,12 @@
   padding: 0;
 } */
 /* Testing...*/
-#bodycv {
+/* #bodycv {
   font-family: Open, Arial, sans-serif;
   overflow: hidden;
-}
+} */
 
-#navside {
+/* #sideNav {
   position: fixed;
   z-index: 1000;
   top: 0px;
@@ -25,9 +25,9 @@
 
 .active-nav, #navside {
   transform: translate3d(0,0,0);
-}
+} */
 
-#navside, #ulside {
+/* #navside, #ulside {
   list-style: none;
   margin-top: 100px;
 }
@@ -37,7 +37,7 @@
   text-align: center;
   color: #fff;
   padding: 10px 0;
-}
+} */
 
 
 .content {
@@ -49,7 +49,11 @@
 }
 
 /* CV  */
-#main-content {
+, #sideNav {
+  
+}
+
+/* #main-content {
   background-color: thistle;
 }
 #cv-side-nav-content {
@@ -60,7 +64,7 @@
 }
 #side-nav-bar {
   position: relative;
-}
+} */
 
 /* ********************** Portfolio view Template on tablet************************************ */
 
@@ -192,7 +196,6 @@ nav {
   border-style: solid;
   border: 10px solid #660033 !important;
   border-radius: 40px !important;
-  display: inline-block;
   text-align: center;
   
 }
