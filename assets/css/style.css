@@ -369,7 +369,7 @@ nav {
   /* background-color: transparent; */
 }
 
-#about-me, #hobbies, #portfolio, #contact-me  {
+#about-me, #hobbies, #portfolio, #contact-me, #contact-me-page  {
   background-color: thistle !important;
   border-style: solid;
   border: 10px solid #660033 !important;
@@ -382,8 +382,12 @@ nav {
   padding-top: 100px !important;
 }
 
-#hobbies, #portfolio {
-  padding-top: 0px !important;
+ #portfolio {
+  padding-top: 100px !important;
+}
+#hobbies, #contact-me {
+  padding-top: 5px !important;
+  padding-bottom: 30px;
 }
 
 h1 {
@@ -492,7 +496,7 @@ border-color: #8f0d56 !important;
   border-color: #8f0d56;
 }
 
-#contact-me {
+#contact-me-page {
   padding-bottom: 30px;
   padding-top: 100px;
 }
