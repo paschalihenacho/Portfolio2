@@ -91,8 +91,8 @@
     </div>
   </div> -->
 
-  <div class="wrapper">
-    <div >
+  <!-- <div class="wrapper"> -->
+    <!-- <div >
         <nav id="toggleBtn" class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
     
@@ -102,9 +102,9 @@
                 </button>
     
             </div>
-        </nav>
+        </nav> -->
     <!-- Sidebar -->
-    <nav id="sidebar">
+    <!-- <nav id="sidebar">
         <div class="sidebar-header">
             <h3>Bootstrap Sidebar</h3>
         </div>
@@ -151,9 +151,39 @@
         </ul>
     </nav>
 </div>
-</div>  
+</div>   -->
+<div class="wrapper">
+    <div id="content">
+        <button type="button" id="sidebarCollapse" class="navbar-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    
+<nav id="sidebar">
+    <!-- Sidebar Header -->
+    <div class="sidebar-header"><h3>Collapsible Sidebar</div>
+
+    <!-- Sidebar Links -->
+    <ul class="list-unstyled components">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><!-- Link with dropdown items -->
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+                <li><a href="#">Page</a></li>
+                <li><a href="#">Page</a></li>
+                <li><a href="#">Page</a></li>
+            </ul>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+</div>
+</div>
+
     <!-- Page Content -->
-<div id="content">
+<div class="container-fluid">
 
 </div>
 
@@ -172,6 +202,14 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript">
+
+$(document).ready(function () {
+
+$('#sidebarCollapse').on('click', function () {
+    $('#sidebar').toggleClass('active');
+});
+
+});
 
 $(document).ready(function () {
 
