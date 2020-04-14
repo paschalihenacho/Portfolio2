@@ -337,7 +337,7 @@ nav {
 }
 
 h1 {
-  color: #660033;
+  color: #8f0d56;;
   font-weight: bold;
   text-align: center;
 }
@@ -352,6 +352,11 @@ p {
 
 hr {
   background-color: #660033;
+
+}
+
+h2 {
+  color: #8f0d56;
 }
 
 .hobbyimages {
@@ -373,13 +378,13 @@ color: thistle;
   color: white;
 }
 
-#card {
+.card {
   padding-right: 1px !important;
   border: 4px solid #660033 !important;
   margin: 10px !important;
   border-radius: 30px;
   background-color: transparent;
-  border-color: #8f0d56;
+
 }
 
 #title {
@@ -434,11 +439,15 @@ border-color: #8f0d56 !important;
 #contact-me-page {
   padding-bottom: 30px;
   padding-top: 100px;
+  width: 100%;
+
 }
+
 
 #contact-me-form {
   padding-bottom: 30px;
   text-align: left !important;
+  width: auto;
 }
 #btn-submit {
   width: 100%;
