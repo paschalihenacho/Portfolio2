@@ -380,7 +380,7 @@ color: thistle;
 
 .card {
   padding-right: 1px !important;
-  border: 4px solid #660033 !important;
+  border: 4px solid #8f0d56 !important;
   margin: 10px !important;
   border-radius: 30px;
   background-color: transparent;
@@ -468,6 +468,40 @@ footer {
   background-color: #660033;
   padding-top: 15px;
   font-size: 12px;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-youtube {
+  color: #bb0000;
+
+}
+
+.fa-google-plus{
+  color: #dd4b39;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus:hover,
+.fa-youtube:hover,
+.fa-linkedin:hover {
+  color: #d5d5d5;
+}
+
+.social {
+  padding: 10px;
+  font-size: 20px;
 }
 /*---Media Queries --*/
 @media (max-width: 992px) {}
