@@ -364,10 +364,6 @@ h2 {
   padding-top: 40px !important;
  
 }
-.txt-hobby-title {
-/* color: #FF336B; */
-color: thistle;
-}
 .txt-hobby {
   font-size: x-large;
   color: white;
@@ -405,6 +401,10 @@ color: thistle;
   width: 200px;
   height: 200px;
   /* border: 5px solid #8f0d56; */
+}
+
+.hire-me {
+margin-top: 40px;
 }
 
 #portfolio {
@@ -517,7 +517,7 @@ footer {
   .about-grid {
     grid-template-areas: 
     "img-selfportrait hd-about"
-    "img-selfportrait txt-about-me";
+    "img-selfportrait hire-me txt-about-me";
   }
 
   .img-selfportrait {
