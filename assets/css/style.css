@@ -308,7 +308,7 @@ nav {
 #navigation {
   background-color: #660033!important;
   position: fixed;
-  width: 100%;
+  width: auto;
   /* background-color: transparent; */
 }
 
