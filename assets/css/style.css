@@ -325,9 +325,7 @@ nav {
   padding-top: 100px !important;
 }
 
- #portfolio {
-  padding-top: 100px !important;
-}
+
 #hobbies, #contact-me {
   padding-top: 5px !important;
   padding-bottom: 30px;
@@ -410,9 +408,10 @@ color: thistle;
 }
 
 #portfolio {
-  padding-top: 50px;
   padding-bottom: 80px;
+  padding-top: 100px !important;
 }
+
 
 .jumbotron {
   height: 500px;
@@ -436,7 +435,7 @@ border-color: #8f0d56 !important;
 #contact-me-page {
   padding-bottom: 30px;
   padding-top: 100px;
-  width: 100%;
+  width: 100vw;
 
 }
 
