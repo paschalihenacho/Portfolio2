@@ -25,7 +25,8 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 ## Credits
 
-https://bootstrapious.com/p/bootstrap-sidebar
+. https://bootstrapious.com/p/bootstrap-sidebar
+. https://www.w3schools.com
 
 List your collaborators, if any, with links to their GitHub profiles.
 
