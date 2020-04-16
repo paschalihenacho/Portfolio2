@@ -1,156 +1,159 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
 
-
 /* CV  */
+
 #sidebarCollapse {
-  width: 40px;
-  height: 40px;
-  background: #f5f5f5;
+    width: 40px;
+    height: 40px;
+    background: #f5f5f5;
 }
 
 #sidebarCollapse span {
-  width: 80%;
-  height: 2px;
-  margin: 0 auto;
-  display: block;
-  background: #555;
-  transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+    width: 80%;
+    height: 2px;
+    margin: 0 auto;
+    display: block;
+    background: #555;
+    transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
 }
 
 #sidebarCollapse span:first-of-type {
-  /* rotate first one */
-  transform: rotate(45deg) translate(2px, 2px);
+    /* rotate first one */
+    transform: rotate(45deg) translate(2px, 2px);
 }
+
 #sidebarCollapse span:nth-of-type(2) {
-  /* second one is not visible */
-  opacity: 0;
+    /* second one is not visible */
+    opacity: 0;
 }
+
 #sidebarCollapse span:last-of-type {
-  /* rotate third one */
-  transform: rotate(-45deg) translate(1px, -1px);
+    /* rotate third one */
+    transform: rotate(-45deg) translate(1px, -1px);
 }
 
 #sidebarCollapse.active span {
-  /* no rotation */
-  transform: none;
-  /* all bars are visible */
-  opacity: 1;
-  margin: 5px auto;
+    /* no rotation */
+    transform: none;
+    /* all bars are visible */
+    opacity: 1;
+    margin: 5px auto;
 }
 
 #sideNav {
-  background-color: thistle;
-  padding-top: 100px;
-  padding-left: 10px;
-  margin-left: 0px ;
-  width: 165px;
-  height: 100vh;
+    background-color: thistle;
+    padding-top: 100px;
+    padding-left: 10px;
+    margin-left: 0px;
+    width: 165px;
+    height: 100vh;
 }
 
 #side-nav-image {
- padding-left: 5px;
- width: 200px;
- height: 200px;
+    padding-left: 5px;
+    width: 200px;
+    height: 200px;
 }
 
 #cvContent {
-  padding-top: 100px;
-  height: 100vh;
-  background-color: thistle;
-  position: fixed;
+    padding-top: 100px;
+    height: 100vh;
+    background-color: thistle;
+    position: fixed;
 }
 
 #toggleBtn {
- position: fixed;
+    position: fixed;
 }
 
 .wrapper {
-  display: flex;
-  padding-top: 100px;
-  position: fixed;
+    display: flex;
+    padding-top: 100px;
+    position: fixed;
 }
 
 #sidebar {
-  min-width: 250px;
-  max-width: 250px;
-  background-color: #660033;
-  color: #fff;
-  transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
-  transform-origin: center left; /* Set the transformed position of sidebar to center left side. */
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #660033;
+    color: #fff;
+    transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
+    transform-origin: center left;
+    /* Set the transformed position of sidebar to center left side. */
 }
 
 #sidebar.active {
-  height: 100vh;
-  margin-left: -250px;
-  transform: rotateY(100deg); /* Rotate sidebar vertically by 100 degrees. */
+    height: 100vh;
+    margin-left: -250px;
+    transform: rotateY(100deg);
+    /* Rotate sidebar vertically by 100 degrees. */
 }
 
 @media (max-width: 768px) {
-  /* Reversing the behavior of the sidebar: 
+    /* Reversing the behavior of the sidebar: 
      it'll be rotated vertically and off canvas by default, 
      collapsing in on toggle button click with removal of 
      the vertical rotation.   */
-  #sidebar {
-      margin-left: -250px;
-      transform: rotateY(100deg);
-  }
-  #sidebar.active {
-      margin-left: 0;
-      transform: none;
-  }
-
-  /* Reversing the behavior of the bars: 
+    #sidebar {
+        margin-left: -250px;
+        transform: rotateY(100deg);
+    }
+    #sidebar.active {
+        margin-left: 0;
+        transform: none;
+    }
+    /* Reversing the behavior of the bars: 
      Removing the rotation from the first,
      last bars and reappear the second bar on default state, 
      and giving them a vertical margin */
-  #sidebarCollapse span:first-of-type,
-  #sidebarCollapse span:nth-of-type(2),
-  #sidebarCollapse span:last-of-type {
-      transform: none;
-      opacity: 1;
-      margin: 5px auto;
-  }
-
-  /* Removing the vertical margin and make the first and last bars rotate again when the sidebar is open, hiding the second bar */
-  #sidebarCollapse.active span {
-      margin: 0 auto;
-  }
-  #sidebarCollapse.active span:first-of-type {
-      transform: rotate(45deg) translate(2px, 2px);
-  }
-  #sidebarCollapse.active span:nth-of-type(2) {
-      opacity: 0;
-  }
-  #sidebarCollapse.active span:last-of-type {
-      transform: rotate(-45deg) translate(1px, -1px);
-  }
+    #sidebarCollapse span:first-of-type,
+    #sidebarCollapse span:nth-of-type(2),
+    #sidebarCollapse span:last-of-type {
+        transform: none;
+        opacity: 1;
+        margin: 5px auto;
+    }
+    /* Removing the vertical margin and make the first and last bars rotate again when the sidebar is open, hiding the second bar */
+    #sidebarCollapse.active span {
+        margin: 0 auto;
+    }
+    #sidebarCollapse.active span:first-of-type {
+        transform: rotate(45deg) translate(2px, 2px);
+    }
+    #sidebarCollapse.active span:nth-of-type(2) {
+        opacity: 0;
+    }
+    #sidebarCollapse.active span:last-of-type {
+        transform: rotate(-45deg) translate(1px, -1px);
+    }
 }
 
 a[data-toggle="collapse"] {
-  position: relative;
+    position: relative;
 }
 
 .dropdown-toggle::after {
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
 }
 
 @media (max-width: 768px) {
-  #sidebar {
-      margin-left: -250px;
-  }
-  #sidebar.active {
-      margin-left: 0;
-  }
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
 }
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-
-a, a:hover, a:focus {
+a,
+a:hover,
+a:focus {
     color: inherit;
     text-decoration: none;
     transition: all 0.5s;
@@ -159,16 +162,19 @@ a, a:hover, a:focus {
 #sidebar .sidebar-header {
     padding: 20px;
     padding-left: 25px;
-    background: #660033;;
+    background: #660033;
+    ;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid thistle;;
+    border-bottom: 1px solid thistle;
+    ;
 }
 
 #sidebar ul p {
-    color: #660033;;
+    color: #660033;
+    ;
     padding: 10px;
 }
 
@@ -177,323 +183,335 @@ a, a:hover, a:focus {
     font-size: 1.1em;
     display: block;
 }
+
 #sidebar ul li a:hover {
     color: #660033;
     background: thistle;
 }
 
-#sidebar ul li.active > a, a[aria-expanded="true"] {
-    color: #660033;;;
-    background: thistle;;
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+    color: #660033;
+    ;
+    ;
+    background: thistle;
+    ;
 }
+
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #660033;;
+    background: #660033;
+    ;
 }
 
+
 /* ********************** Portfolio view Template on tablet************************************ */
+
 .container {
-padding: 0px !important;
-margin: 0px;
+    padding: 0px !important;
+    margin: 0px;
 }
 
 #template {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
 
 .myReferenceGrid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
 }
 
-.referencesImag{
-  align-items: center;
+.referencesImag {
+    align-items: center;
 }
 
 .myGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
 }
 
 @media (max-width: 768px) {
-  .myGrid, .myReferenceGrid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 10px
-}
-
-.mySubGrid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  grid-gap: 15px
-}
-
+    .myGrid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px
+    }
+    .myReferenceGrid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 10px
+    }
+    .mySubGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-gap: 15px
+    }
 }
 
 @media (max-width: 576px) {
-  .myGrid, .myReferenceGrid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, auto);
-  }
-  .mySubGrid {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, auto);
-    grid-gap: 15px
-  }
-
+    .myGrid,
+    .myReferenceGrid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, auto);
+    }
+    .mySubGrid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, auto);
+        grid-gap: 15px
+    }
 }
+
 
 /* About Me */
 
- .about-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, auto);
-  grid-gap: 10px;
-  grid-template-areas: 
-  "img-selfportrait img-selfportrait img-selfportrait"
-  "hd-about hd-about hd-about"
-  "txt-about-me txt-about-me txt-about-me";
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 10px;
+    grid-template-areas: "img-selfportrait img-selfportrait img-selfportrait" "hd-about hd-about hd-about" "txt-about-me txt-about-me txt-about-me";
 }
 
 .img-selfportrait {
-grid-area: img-selfportrait;
-grid-column: 2 / 3;
+    grid-area: img-selfportrait;
+    grid-column: 2 / 3;
 }
 
 .hd-about {
-grid-area: hd-about;
-text-align: center;
+    grid-area: hd-about;
+    text-align: center;
 }
 
 .txt-about-me {
-grid-area: txt-about-me;
-line-height: 2;
+    grid-area: txt-about-me;
+    line-height: 2;
 }
 
 .navbar-toggler {
-  border-color: #ffffff !important;
-  background-color: #ffffff;
+    border-color: #ffffff !important;
+    background-color: #ffffff;
 }
+
 .nav-titles:hover {
-  font-size: large;
-  font-family: "fantasy, Tangerine", sans-serif;
-  text-align: center;
-  color: #ffffff !important;
-  border-bottom:2px solid thistle;
-  border-style: groove;
+    font-size: large;
+    font-family: "fantasy, Tangerine", sans-serif;
+    text-align: center;
+    color: #ffffff !important;
+    border-bottom: 2px solid thistle;
+    border-style: groove;
 }
+
 .nav-titles {
-  color: thistle !important;
-  border-right: 1px solid thistle;
-  line-height: 5px;
+    color: thistle !important;
+    border-right: 1px solid thistle;
+    line-height: 5px;
 }
 
-#title, #name {
-
-  color: #ffffff !important;
+#title,
+#name {
+    color: #ffffff !important;
 }
 
 body {
-  /* background-color: #daf7f8; */
-  background-color: #660033;
-  height: 100%;
-
+    /* background-color: #daf7f8; */
+    background-color: #660033;
+    height: 100%;
 }
 
 nav {
-  /* background-image: linear-gradient(to left, #53a4e3, #daf7f8); */
-  width: 100%;
-  height: auto;
-} 
-
-#navigation {
-  background-color: #660033!important;
-  position: fixed;
-  width: auto;
-  /* background-color: transparent; */
+    /* background-image: linear-gradient(to left, #53a4e3, #daf7f8); */
+    width: 100%;
+    height: auto;
 }
 
-#about-me, #hobbies, #portfolio, #contact-me, #contact-me-page, #references {
-  background-color: thistle !important;
-  border-style: solid;
-  border: 10px solid #660033 !important;
-  border-radius: 40px !important;
-  text-align: center;
-  
+#navigation {
+    background-color: #660033!important;
+    position: fixed;
+    width: auto;
+    /* background-color: transparent; */
+}
+
+#about-me,
+#hobbies,
+#portfolio,
+#contact-me,
+#contact-me-page,
+#references {
+    background-color: thistle !important;
+    border-style: solid;
+    border: 10px solid #660033 !important;
+    border-radius: 40px !important;
+    text-align: center;
 }
 
 #about-me {
-  padding-top: 100px !important;
+    padding-top: 100px !important;
 }
 
-
-#hobbies, #contact-me {
-  padding-top: 5px !important;
-  padding-bottom: 30px;
+#hobbies,
+#contact-me {
+    padding-top: 5px !important;
+    padding-bottom: 30px;
 }
 
 h1 {
-  color: #8f0d56;;
-  font-weight: bold;
-  text-align: center;
+    color: #8f0d56;
+    ;
+    font-weight: bold;
+    text-align: center;
 }
 
 a {
-  font-weight: bolder;
+    font-weight: bolder;
 }
 
 p {
-  color: black;
+    color: black;
 }
 
 hr {
-  background-color: #660033;
-
+    background-color: #660033;
 }
 
 h2 {
-  color: #8f0d56;
+    color: #8f0d56;
 }
 
 .hobbyimages {
-  height: 550px;
-  width: auto;
-  /* opacity: 0.8; */
-} 
-
-.txt-hobby-title, .txt-hobby {
-  padding-top: 40px !important;
- 
+    height: 550px;
+    width: auto;
+    /* opacity: 0.8; */
 }
+
+.txt-hobby-title,
 .txt-hobby {
-  font-size: x-large;
-  color: white;
+    padding-top: 40px !important;
+}
+
+.txt-hobby {
+    font-size: x-large;
+    color: white;
 }
 
 .card {
-  padding-right: 1px !important;
-  border: 4px solid #8f0d56 !important;
-  margin: 10px !important;
-  border-radius: 30px;
-  background-color: transparent;
-
+    padding-right: 1px !important;
+    border: 4px solid #8f0d56 !important;
+    margin: 10px !important;
+    border-radius: 30px;
+    background-color: transparent;
 }
 
 #title {
-  font-size: 16px;
-  font-family: "fantasy";
-  font-weight: lighter;
-  
+    font-size: 16px;
+    font-family: "fantasy";
+    font-weight: lighter;
 }
 
 #name {
-  float: left;
-  font-size: large;
-  font-weight: 900;
+    float: left;
+    font-size: large;
+    font-weight: 900;
 }
 
 #profileImage {
-  float: left;
-  /* background-image: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b) */
+    float: left;
+    /* background-image: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b) */
 }
 
 .about-me-image {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  /* border: 5px solid #8f0d56; */
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    /* border: 5px solid #8f0d56; */
 }
 
 .hire-me {
-margin-top: 40px;
+    margin-top: 40px;
 }
 
 #portfolio {
-  padding-bottom: 80px;
-  padding-top: 100px !important;
+    padding-bottom: 80px;
+    padding-top: 100px !important;
 }
 
 .jumbotron {
-  height: 500px;
-  background-color: transparent;
-  
-  width: 100%;
+    height: 500px;
+    background-color: transparent;
+    width: 100%;
 }
 
-.btn-outline-primary:hover  {
-  background-color:  #8f0d56 !important;
+.btn-outline-primary:hover {
+    background-color: #8f0d56 !important;
 }
 
 .btn {
-border-color: #8f0d56 !important;
+    border-color: #8f0d56 !important;
 }
-#btn-submit {
 
-  background-color: #8f0d56 !important;
+#btn-submit {
+    background-color: #8f0d56 !important;
 }
 
 #contact-me {
-  padding-bottom: 30px;
-  padding-top: 100px;
-  width: 100vw;
-
+    padding-bottom: 30px;
+    padding-top: 100px;
+    width: 100vw;
 }
-
 
 #contact-me-form {
-  padding-bottom: 30px;
-  text-align: left !important;
-  width: auto;
+    padding-bottom: 30px;
+    text-align: left !important;
+    width: auto;
 }
-#btn-submit {
-  width: 100%;
-}
-.btn {
 
-  border-radius: 40px;
+#btn-submit {
+    width: 100%;
+}
+
+.btn {
+    border-radius: 40px;
 }
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-  padding-bottom: 15px;
-  background-color: #660033;
-  padding-top: 15px;
-  font-size: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+    background-color: #660033;
+    padding-top: 15px;
+    font-size: 12px;
 }
 
 .fa-facebook {
-  color: #3b5998;
+    color: #3b5998;
 }
 
 .fa-youtube {
-  color: #bb0000;
-
+    color: #bb0000;
 }
 
-.fa-google-plus{
-  color: #dd4b39;
+.fa-google-plus {
+    color: #dd4b39;
 }
 
 .fa-twitter {
-  color: #00aced;
+    color: #00aced;
 }
 
 .fa-linkedin {
-  color: #0077b5;
+    color: #0077b5;
 }
 
 .fa-facebook:hover,
@@ -501,90 +519,82 @@ footer {
 .fa-google-plus:hover,
 .fa-youtube:hover,
 .fa-linkedin:hover {
-  color: #d5d5d5;
+    color: #d5d5d5;
 }
 
 .social {
-  padding: 10px;
-  font-size: 20px;
+    padding: 10px;
+    font-size: 20px;
 }
+
+
 /*---Media Queries --*/
+
 @media (max-width: 992px) {}
 
 @media (max-width: 768px) {}
 
 @media (max-width: 576px) {}
 
+
 /*--- Bootstrap Padding Fix --*/
+
 [class*="col-"] {
-  padding: 3rem;
+    padding: 3rem;
 }
+
 
 /* ********************************* MEDIA QUERIES *************************************************** */
 
 @media (max-width: 992px) {
-  .about-grid {
-    grid-template-areas: 
-    "img-selfportrait hd-about"
-    "img-selfportrait hire-me txt-about-me";
-  }
-
-  .img-selfportrait {
-    grid-column: 1 / 2;
+    .about-grid {
+        grid-template-areas: "img-selfportrait hd-about" "img-selfportrait hire-me txt-about-me";
     }
-    
+    .img-selfportrait {
+        grid-column: 1 / 2;
+    }
     .hd-about {
-    text-align: left;
-    padding-left: 15px;
+        text-align: left;
+        padding-left: 15px;
     }
-    
     .txt-about-me {
-    padding-left: 15px;
-  }
+        padding-left: 15px;
+    }
 }
 
 @media (min-width: 768px) {
-  .about-grid {
-    grid-template-areas: 
-    "hd-about hd-about hd-about"
-    "img-selfportrait txt-about-me txt-about-me"
-    "img-selfportrait txt-about-me txt-about-me";
-  }
-
-  .img-selfportrait {
-    grid-column: 1 / 2;
+    .about-grid {
+        grid-template-areas: "hd-about hd-about hd-about" "img-selfportrait txt-about-me txt-about-me" "img-selfportrait txt-about-me txt-about-me";
     }
-    
+    .img-selfportrait {
+        grid-column: 1 / 2;
+    }
     .hd-about {
-    text-align: center;
-    padding-left: 20px;
+        text-align: center;
+        padding-left: 20px;
     }
-    
     .txt-about-me {
-    padding-left: 20px;
-  }
+        padding-left: 20px;
+    }
 }
+
 @media (max-width: 768px) {
-  .about-grid {
-    grid-template-areas: 
-    "hd-about hd-about hd-about"
-    "img-selfportrait txt-about-me txt-about-me"
-    "img-selfportrait txt-about-me txt-about-me";
-  }
-
-  .img-selfportrait {
-    grid-column: 1 / 2;
+    .about-grid {
+        grid-template-areas: "hd-about hd-about hd-about" "img-selfportrait txt-about-me txt-about-me" "img-selfportrait txt-about-me txt-about-me";
     }
-    
+    .img-selfportrait {
+        grid-column: 1 / 2;
+    }
     .hd-about {
-    text-align: center;
-    padding-left: 20px;
+        text-align: center;
+        padding-left: 20px;
     }
-    
     .txt-about-me {
-    padding-left: 20px;
-  }
+        padding-left: 20px;
+    }
 }
+
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap

@@ -3,7 +3,8 @@
 
 # Description
 This site contains a detail description of my professional profile.
-I had some sample projects under my portfolio tab
+I had some sample projects under my portfolio tab.
+To learn more about what I do during free time, click on the "Hobbies" tab. 
 
 
 ## Table of Contents (Optional)
@@ -29,7 +30,7 @@ Provide instructions and examples for use. Include screenshots as needed.
 . https://www.w3schools.com
 . https://developer.mozilla.org/en-US/
 . https://unsplash.com/?utm_source=medium&utm_medium=referral
-. <!-- https://demo.templateflip.com/creative-cv/# -->
+. https://demo.templateflip.com/creative-cv/#
 
 List your collaborators, if any, with links to their GitHub profiles.
 
