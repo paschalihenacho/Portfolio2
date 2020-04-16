@@ -27,6 +27,8 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 . https://bootstrapious.com/p/bootstrap-sidebar
 . https://www.w3schools.com
+. https://developer.mozilla.org/en-US/
+. https://unsplash.com/?utm_source=medium&utm_medium=referral
 
 List your collaborators, if any, with links to their GitHub profiles.
 
