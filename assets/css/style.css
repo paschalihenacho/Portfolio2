@@ -204,6 +204,16 @@ margin: 0px;
   grid-template-rows: repeat(4, 1fr);
 }
 
+.myReferenceGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.referencesImag{
+  align-items: center;
+}
+
 .myGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -211,7 +221,7 @@ margin: 0px;
 }
 
 @media (max-width: 768px) {
-  .myGrid {
+  .myGrid, .myReferenceGrid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -228,7 +238,7 @@ margin: 0px;
 }
 
 @media (max-width: 576px) {
-  .myGrid {
+  .myGrid, .myReferenceGrid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, auto);
@@ -312,7 +322,7 @@ nav {
   /* background-color: transparent; */
 }
 
-#about-me, #hobbies, #portfolio, #contact-me, #contact-me-page {
+#about-me, #hobbies, #portfolio, #contact-me, #contact-me-page, #references {
   background-color: thistle !important;
   border-style: solid;
   border: 10px solid #660033 !important;
@@ -411,7 +421,6 @@ margin-top: 40px;
   padding-bottom: 80px;
   padding-top: 100px !important;
 }
-
 
 .jumbotron {
   height: 500px;
