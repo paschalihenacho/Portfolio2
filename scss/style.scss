@@ -3,7 +3,7 @@
 @import 'bootstrap/mixins';
 
 $font-primary: 'Poppins',Arial, sans-serif;
-$primary: #3e64ff;
+$primary: #f8b739;
 
 body{
 	font-family: $font-primary;
@@ -96,47 +96,25 @@ h1, h2, h3, h4, h5,
 }
 
 #sidebar {
-  min-width: 270px;
-  max-width: 270px;
-  background: $primary;
+  min-width: 300px;
+  max-width: 300px;
+  background: #1d1919;
   color: #fff;
   transition: all 0.3s;
   &.active{
-  	min-width: 80px;
-    max-width: 80px;
-    text-align: center;
-		ul.components{
-	    li{
-	    	font-size: 14px;
-	    	a{
-	    		padding: 10px 0;
-			    span{
-			    	margin-right: 0;
-		    		display: block;
-		    		font-size: 24px;
-			    }
-			  }
-	    }
-	  }
-		.logo{
-			padding: 10px 0;
-		}
-
-		.footer{
-			display: none;
-		}
+  	margin-left: -300px;
   }
-
   .logo{
   	display: block;
-  	color: $white;
-  	font-weight: 900;
-  	padding: 10px 30px;
-  	@include transition(.3s);
+  	width: 120px;
+  	height: 120px;
+  	margin: 0 auto;
+  	span{
+  		display: block;
+  	}
   }
   ul.components{
   	padding: 0;
-  	@include transition(.3s);
   }
   ul{
     li{
@@ -148,37 +126,26 @@ h1, h2, h3, h4, h5,
     		}
     	}
     	a{
-    		padding: 10px 30px;
+    		padding: 10px 0;
 		    display: block;
-		    color: rgba(255,255,255,1);
+		    color: rgba(255,255,255,.8);
 		    border-bottom: 1px solid rgba(255,255,255,.1);
-		    span{
-		    	margin-right: 15px;
-		    	@include media-breakpoint-down(md){
-		    		display: block;
-		    	}
-		    }
 		    &:hover{
-		    	color: $white;
+		    	color: $primary;
 		    }
     	}
     	&.active{
     		> a{
     			background: transparent;
-    			color: $white;
+    			color: $primary;
     		}
     	}
     }
   }
-
-
   @include media-breakpoint-down(md){
-  	min-width: 80px;
-    max-width: 80px;
-    text-align: center;
-    margin-left: -80px !important;
-    &.active{
-    	margin-left: 0 !important;
+    margin-left: -300px;
+    &.active {
+        margin-left: 0;
     }
   }
 }
@@ -204,13 +171,6 @@ a[data-toggle="collapse"] {
 	}
 }
 
-.footer{
-	padding: 0 30px;
-	@include media-breakpoint-down(md){
-		display: none;
-	}
-}
-
 #content {
   width: 100%;
   padding: 0;
@@ -227,5 +187,11 @@ a[data-toggle="collapse"] {
 			background: $primary !important;
 			border-color: $primary !important;
 		}
+	}
+}
+
+.footer{
+	p{
+		color: rgba(255,255,255,.5);
 	}
 }
