@@ -284,11 +284,65 @@ h2 {
     height: 200px;
     /* border: 5px solid #8f0d56; */
 }
+/* ********************** Portfolio view Template on tablet************************************ */
+#template {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.card {
+  padding-right: 1px !important;
+  border: 1px solid #8f0d56 !important;
+  margin: 10px !important;
+  border-radius: 30px !important;
+  background-color: transparent !important;
+}
 
 #portfolio {
     padding-bottom: 80px;
     padding-top: 100px !important;
 }
+
+.myGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+@media (max-width: 768px) {
+  .myGrid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-gap: 10px
+  }
+  /* .myReferenceGrid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 10px
+  } */
+  .mySubGrid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-gap: 15px
+  }
+}
+
+@media (max-width: 576px) {
+  .myGrid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(2, auto);
+  }
+  .mySubGrid {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3, auto);
+      grid-gap: 15px
+  }
+}
+
 
 .jumbotron {
     height: 500px;
