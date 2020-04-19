@@ -1,3 +1,86 @@
+/* *******************************IMPORTANT!!!!!!!!!!!!!!!!********************* */
+#sidebar {
+  min-width: 300px;
+  max-width: 300px;
+  background: #32373d;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  position: fixed; }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: #660033;
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-youtube {
+  color: #bb0000;
+}
+
+.fa-google-plus {
+  color: #dd4b39;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus:hover,
+.fa-youtube:hover,
+.fa-linkedin:hover {
+  color: #d5d5d5;
+}
+
+.social {
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -8176,15 +8259,7 @@ h1, h2, h3, h4, h5,
 .wrapper {
   width: 100%; }
 
-#sidebar {
-  min-width: 300px;
-  max-width: 300px;
-  background: #32373d;
-  color: #fff;
-  -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-  position: relative; }
+
   #sidebar .h6 {
     color: #fff; }
   #sidebar.active {

@@ -32,8 +32,7 @@ Provide instructions and examples for use. Include screenshots as needed.
 . https://unsplash.com/?utm_source=medium&utm_medium=referral
 . https://demo.templateflip.com/creative-cv/#
 . https://colorlib.com/wp/bootstrap-sidebar/
-
-Profile background Photo by Mazhar Zandsalimi on Unsplash.
+. Profile background Photo by Mazhar Zandsalimi on Unsplash.
 
 List your collaborators, if any, with links to their GitHub profiles.
 
