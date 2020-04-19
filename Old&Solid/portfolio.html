@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paschal Ihenacho | Web & Mobile Application Developer</title>
+    <link href="./assets/css/stylereset.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Great+Vibes&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body id="top" data-spy="scroll" data-target=".navbar" data-offset="50" class="d-flex flex-column">
+    <div class="container">
+        <!-- Navigation -->
+        <nav id="navigation" class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+            <div class="container-fluid ">
+                <a id="name-title" class="navbar-brand mb-0 h1" href="https://www.linkedin.com/in/paschal-ihenacho/">
+                    <img id="profileImage" class=" d-inline-block align-top " alt="Profile Image" src="./assets/images/code.png" class=" rounded rounded-circle" width="70" height="70">
+                    <div id="name">Paschal Ihenacho</div>
+                    <br>
+                    <div id="title">Web & Mobile App Developer</div>
+                </a>
+                <button class=" nav-btn navbar-toggler btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="topnav collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link nav-titles" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link nav-titles" href="cv.html">CV</a></li>
+                        <li class="nav-item"><a class="nav-link nav-titles" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link nav-titles" href="index.html#hobbies">Hobbies</a></li>
+                        <li class="nav-item"><a class="nav-link nav-titles" href="contactme.html">Contact Me</a></li>
+                        <li class="nav-item"><a class="nav-link nav-titles" href="index.html#references">References</a></li>
+                    </ul>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    </nav>
+
+    <!-- Portfolio 1 -->
+
+    <!-- Cards -->
+
+    <section id="portfolio" class="container-fluid">
+        <h1 class="display-8">Portfolio</h1>
+        <hr class="my-4">
+        <div class=" myGrid">
+            <div class="card mx-2">
+                <div class="card-body mySubGrid">
+                    <img class="img-fluid" src="./assets/images/revents.png" alt="revents">
+                    <aside>
+                        <h2 class="card-title my-2">Re-Vent</h2>
+                        <p>Re-Vents is an event hosting web application.</p>
+                        <a href="http://bit.ly/reventsdemo" class="btn btn-outline-primary">Learn More</a>
+                    </aside>
+                </div>
+            </div>
+
+            <div class="card mx-2">
+                <div class="card-body mySubGrid">
+                    <img class="img-fluid " src="./assets/images/hamper.png" alt="hamper">
+                    <aside>
+                        <h2 class="card-title my-2">Hamper</h2>
+                        <p class="card-text">Hamper is redefining how dry cleaning is done. No longer do you need to deal with the hassle and inconvenience of going out of your way to a brick and mortar location. </p>
+                        <a href="https://www.usehamper.com" class="btn btn-outline-primary">Learn More</a>
+                    </aside>
+                </div>
+            </div>
+
+            <div class="card mx-2">
+                <div class="card-body mySubGrid">
+                    <img class="img-fluid " src="./assets/images/p3.jpg" alt="school project">
+                    <aside>
+                        <h2 class="card-title my-2">Ocean Plug-In</h2>
+                        <p class="card-text">Designed, coded, implemented, and tested a well-functioning Ocean Petrel plug-in application and taught it to high schoolers using C#.</p>
+                        <a href="https://www.ocean.slb.com/en/ecosystem/academia/ocean-competitions" class="btn btn-outline-primary">Learn More</a>
+                    </aside>
+                </div>
+            </div>
+    </section>
+
+    <footer class="text-muted">
+        <div class="container">
+            <span>&copy; Paschal Ihenacho 2020
+			<a class="social" href="https://www.linkedin.com/in/paschal-ihenacho/"><i class="fab fa-linkedin"></i></a>
+			<a class="social" href="paschal.ihenacho@gmail.com"><i class="fab fa-google-plus"></i></a>
+			<a class="social" href="https://github.com/paschalihenacho"><i class="fab fa-github"></i></a>
+	</span>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('a[href^="#"]').on('click', function(e) {
+                e.preventDefault();
+
+                var target = this.hash,
+                    $target = $(target);
+
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top
+                }, 900, 'swing', function() {
+                    window.location.hash = target;
+                });
+            });
+        });
+    </script>
+    </div>
+</body>
+
+</html>
