@@ -4,7 +4,7 @@
 
 
 #sidebar {
-  min-width: 150px;
+  min-width: 300px;
   max-width: 300px;
   background: #660033;
   color: #fff;
@@ -21,7 +21,14 @@
     font-size: 14px;
   }
 
-
+  .cvTitle{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900px
+    ;
+    background-color: #ffc107;
+    color: #660033;
+  }
 .fa-facebook {
   color: #3b5998;
 }
@@ -139,6 +146,26 @@ h1, h2, h3, h4, h5,
   border-radius: 0;
   margin-bottom: 40px;
  
+}
+
+.nav-titles:hover {
+  font-size: large;
+  font-family: "fantasy, Tangerine", sans-serif;
+  text-align: center;
+  color: #ffffff !important;
+  border-bottom: 2px solid thistle;
+  border-style: groove;
+}
+
+.nav-titles {
+  color: thistle !important;
+  border-right: 1px solid thistle;
+  line-height: 5px;
+}
+
+#title,
+#name {
+  color: #ffffff !important;
 }
 
 .navbar-btn {
