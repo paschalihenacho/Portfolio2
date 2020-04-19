@@ -10,7 +10,9 @@
     border: 2px solid #8f0d56 !important;
     border-radius: 40px !important;
     text-align: center;
-    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 

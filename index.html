@@ -24,7 +24,7 @@
              <div class="img bg-wrap text-center py-4" style="background-image: url(./assets/images/profileBackground.png);">
                 <div >
                     <div href="#" class="img logo rounded-circle mb-5"  style="background-image: url(./assets/images/ProfileImage.png);"></div>
-                    <h3 id="name"><strong>Paschal Ihenacho</strong></h3>
+                    <h2 id="name"><strong>Paschal Ihenacho</strong></h2>
                     <h3 id="title">Web & Mobile App Developer</h3>
                 </div>
             </div>
@@ -63,7 +63,7 @@
               </ul>
               </li>
               <li>
-                <a href="#">Skilss</a>
+                <a href="#">Skills</a>
                 </li>
 	          <li>
               <a href="#">Portfolio</a>
@@ -80,8 +80,8 @@
       <div id="content" class="p-4 p-md-5">
 
         <nav class="navbar navbar-expand-lg ">
+            <div class="navbarName"><h3>Paschal Ihenacho</h3></div>
           <div class="container-fluid">
-
             <button type="button" id="sidebarCollapse" class="btn btn-primary">
               <i class="fa fa-bars"></i>
               <span class="sr-only">Toggle Menu</span>
@@ -109,7 +109,57 @@
         <p>Supportive and enthusiastic team player dedicated to streamlining processes and efficiently resolving project issues.</p>
         <p>Very successful in a fast-paced environment and enjoys challenges as it increases my ability to learn new things.</p>
 
-        <a id="hire-me" href="#contact-me" class="btn mx-1 stdButton btn-outline-primary text-center">Hire Me</a>
+        <a id="hire-me" href="contactme.html" class="btn mx-1 stdButton btn-outline-primary text-center">Hire Me</a>
+    </div>
+    <div>
+         <!-- Hobbies -->
+         <section id="hobbies" class="col-lg-12 ">
+            <h1 class="display-8">Hobbies</h1>
+            <hr class="my-6">
+            <div id="hobbyslide" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#hobbyslide" data-slide-to="0" class="active"></li>
+                    <li data-target="#hobbyslide" data-slide-to="1"></li>
+                    <li data-target="#hobbyslide" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="hobbyimages img-fluid" src="./assets/images/biking.png" alt="biking">
+                        <div class="carousel-caption">
+                            <h1 class="txt-hobby-title">Biking and Hiking</h1>
+                            <h2 class="txt-hobby">biking & hiking is the joy </h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="hobbyimages img-fluid" src="./assets/images/watching-movies.png" alt="movies">
+                        <div class="carousel-caption">
+                            <h1 class="txt-hobby-title">Watching Movies</h1>
+                            <h2 class="txt-hobby">I enjoy watching movies</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="hobbyimages img-fluid" src="./assets/images/music.png" alt="music">
+                        <div class="carousel-caption">
+                            <h1 id="txt-hobby-title">Listening to Music</h1>
+                            <h2 class="txt-hobby">I love several kinds of music.</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#hobbyslide" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#hobbyslide" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </section>
+
     </div>
     </div>
 	</div>
@@ -133,7 +183,7 @@
 
                 $('html, body').stop().animate({
                     'scrollTop': $target.offset().top
-                }, 900, 'swing', function() {
+                }, 1000, 'swing', function() {
                     window.location.hash = target;
                 });
             });
