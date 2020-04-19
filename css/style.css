@@ -7,9 +7,10 @@
 #references {
     background-color: thistle !important;
     border-style: solid;
-    border: 10px solid #660033 !important;
+    border: 2px solid #8f0d56 !important;
     border-radius: 40px !important;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 
@@ -282,9 +283,24 @@ h2 {
 .btn:hover {
     border-color: #8f0d56 !important;
     background-color: #8f0d56;
+    color: #fff !important;
     
 }
+.btn{
+  border-color: #8f0d56;
+  border-radius: 40px;
+  background-color: transparent;
+  color: #007bff;
+}
+#btn-submit {
+  width: 100%;
 
+}
+#contact-me-form {
+  padding-bottom: 30px;
+  text-align: left !important;
+  width: auto;
+}
 
 .line {
   width: 100%;
