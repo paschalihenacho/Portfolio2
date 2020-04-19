@@ -3,7 +3,6 @@
 @import 'bootstrap/mixins';
 
 $font-primary: 'Poppins',Arial, sans-serif;
-$primary: #f8b739;
 
 body{
 	font-family: $font-primary;
@@ -176,18 +175,6 @@ a[data-toggle="collapse"] {
   padding: 0;
   min-height: 100vh;
   transition: all 0.3s;
-}
-
-
-.btn{
-	&.btn-primary{
-		background: $primary;
-		border-color: $primary;
-		&:hover, &:focus{
-			background: $primary !important;
-			border-color: $primary !important;
-		}
-	}
 }
 
 .footer{
