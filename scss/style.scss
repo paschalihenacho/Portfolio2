@@ -69,11 +69,11 @@ h1, h2, h3, h4, h5,
 
 .navbar {
     padding: 15px 10px;
-    background: #fff;
+    background: #660033;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+
 }
 
 .navbar-btn {
@@ -95,15 +95,15 @@ h1, h2, h3, h4, h5,
   width: 100%;
 }
 
-#sidebar {
-  min-width: 300px;
-  max-width: 300px;
-  background: #1d1919;
-  color: #fff;
-  transition: all 0.3s;
-  &.active{
-  	margin-left: -300px;
-  }
+// #sidebar {
+//   min-width: 300px;
+//   max-width: 300px;
+//   background: #1d1919;
+//   color: #fff;
+//   transition: all 0.3s;
+//   &.active{
+//   	margin-left: -300px;
+//   }
   .logo{
   	display: block;
   	width: 120px;
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5,
         margin-left: 0;
     }
   }
-}
+
 
 
 a[data-toggle="collapse"] {
