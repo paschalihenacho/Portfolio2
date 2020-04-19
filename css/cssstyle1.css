@@ -1,20 +1,21 @@
 /* *******************************IMPORTANT!!!!!!!!!!!!!!!!********************* */
 .navbar {
   background-color: #660033!important;
-  width: auto;
-  position: relative;
+  position: fixed;
   flex-direction: row-reverse; 
-  display: flex;
+  display: flexbox;
+  width: auto;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
  
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
+  /* -ms-flex-wrap: wrap;
+  flex-wrap: wrap; */
+  /* -webkit-box-align: center;
+  -ms-flex-align: center; */
+   align-items: right; 
+  /* -webkit-box-pack: justify;
+  -ms-flex-pack: justify; */
   justify-content: space-between;
 }
   /* padding: 0.5rem 1rem; } */
@@ -31,6 +32,8 @@
     -ms-flex-pack: justify;
     justify-content: space-between; }
 
+    .ml-auto {
+      margin-left: auto !important; }
     /* #content {
       width: auto;
       padding: 0;
@@ -58,7 +61,9 @@
     color: #fff;
     font-size: 14px;
   }
-
+#pageContent{
+  padding-top: 30px;
+}
 footer {
   position: fixed;
   left: 0;
@@ -6965,9 +6970,7 @@ button.bg-dark:focus {
 .my-auto {
   margin-bottom: auto !important; }
 
-.ml-auto,
-.mx-auto {
-  margin-left: auto !important; }
+
 
 @media (min-width: 576px) {
   .m-sm-0 {
