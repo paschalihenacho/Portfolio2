@@ -24,8 +24,7 @@
   .cvTitle{
     text-align: center;
     font-size: 18px;
-    font-weight: 900px
-    ;
+    font-weight: bolder;
     background-color: #ffc107;
     color: #660033;
   }
@@ -137,7 +136,9 @@ h1, h2, h3, h4, h5,
 .img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center;
+  border: solid 1px #ffc107;
+}
 
 .navbar {
   padding: 15px 10px;
@@ -152,9 +153,11 @@ h1, h2, h3, h4, h5,
   font-size: large;
   font-family: "fantasy, Tangerine", sans-serif;
   text-align: center;
-  color: #ffffff !important;
+  color: #660033 !important;
   border-bottom: 2px solid thistle;
   border-style: groove;
+  background-color: #ffc107;
+  border: 0px;
 }
 
 .nav-titles {
