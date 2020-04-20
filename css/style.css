@@ -13,6 +13,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     padding-bottom: 40px;
+    max-width: 800px !important;
 }
 
 
@@ -168,6 +169,7 @@ h1, h2, h3, h4, h5,
   margin-bottom: 40px;
   position: relative !important;
   min-width: 100%;
+  max-width: 800px;
  
 }
 
@@ -231,8 +233,9 @@ h2 {
 }
 
 .about-me{
-  vertical-align: middle;
   text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .stdButton{
   justify-content: space-around;
@@ -368,14 +371,23 @@ h2 {
   font-weight: bolder;
 }
 #btn-submit {
-  width: 50%;
-
+  margin-top: 20px;
+  width: 150px;
+  text-align: center !important;
 }
 #contact-me-form {
   padding-bottom: 30px;
-  text-align: left !important;
+  text-align: left;
   width: auto;
-  
+  margin: 50px;
+}
+#name, #email-address, #message {
+  background-color: transparent;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border: solid 2px;
+  border-color: #660033;
 }
 
 /* ***************************Side Bar****************************** */
