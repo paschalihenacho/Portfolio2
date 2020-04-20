@@ -73,7 +73,7 @@
                     <li class="nav-item"><a class="nav-link nav-titles" href="index.html">About Me</a></li>
                     <li class="nav-item"><a class="nav-link nav-titles" href="portfolio.html">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link nav-titles" href="index.html#hobbies">Hobbies</a></li>
-                    <li class="nav-item"><a class="nav-link nav-titles" href="contactme.html">Contact Me</a></li>
+                    <li class="nav-item"><a class="nav-link nav-titles" href="contactme.php">Contact Me</a></li>
                 </ul>
             </div>
   
@@ -167,6 +167,12 @@
                 });
             });
         });
+
+        $(".sidebarBtn").on('click', function() {
+  $(this).toggleClass("on");
+  $('.menu-section').toggleClass("on");
+  $("nav ul").toggleClass('hidden');
+});
     </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>

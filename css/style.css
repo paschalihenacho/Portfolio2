@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5,
 }
 
 
-#navbarName{
+/* #navbarName{
   position: absolute !important;
   display: block;
   text-align: center !important;
@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5,
   font-size: 16px;
   align-items: center;
   grid-row: 2;
-}
+} */
 #sidebarCollapse{
   position: relative;
 }
@@ -358,7 +358,7 @@ h2 {
 }
 
 .sidebarBtn{
-  border-color: #8f0d56;
+  border-color: #fff !important;
   border-radius: 40px;
   background-color: transparent;
   color: #ffc107 !important; 

@@ -89,7 +89,7 @@
           <h1 class="display-8">Contact Me</h1>
           <h5 class="text-center text-success"><?= $result; ?></h5>
           <hr class="my-6">
-          <form id="contact-me-form" method="post" autocomplete="off" action="mail.php" >
+          <form id="contact-me-form" method="post" autocomplete="off" action="<?= $_SERVER['PHP_SELF']; ?>" >
               <label for="contact-name"><strong>Name:</strong></label>
               <input type="text" class="form-control" name="name" id="name" placeholder="John Smith">
               <label for="contact-email"><strong>Email address:</strong></label>
