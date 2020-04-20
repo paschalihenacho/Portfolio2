@@ -266,13 +266,6 @@ h2 {
     background-color: transparent;
 }
 
-/* 
-{
-    float: left;
-    font-size: large;
-    font-family: 'Cardo', serif;
-    font-weight: 900;
-} */
 
 #profileImage {
     float: left;
@@ -317,12 +310,7 @@ h2 {
       grid-template-rows: repeat(3, 1fr);
       grid-gap: 10px
   }
-  /* .myReferenceGrid {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      grid-gap: 10px
-  } */
+
   .mySubGrid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -378,7 +366,7 @@ h2 {
   font-weight: bolder;
 }
 #btn-submit {
-  width: 100%;
+  width: 50%;
 
 }
 #contact-me-form {
@@ -387,6 +375,8 @@ h2 {
   width: auto;
   
 }
+
+/* ***************************Side Bar****************************** */
 
 .line {
   width: 100%;
@@ -400,31 +390,43 @@ h2 {
 
   #sidebar.active {
     margin-left: -300px; }
+
   #sidebar .logo {
     display: block;
     width: 120px;
     height: 120px;
-    margin: 0 auto; }
+    margin: 0 auto; 
+  }
+
     #sidebar .logo span {
-      display: block; }
+      display: block; 
+    }
   #sidebar ul.components {
-    padding: 0; }
+    padding: 0; 
+  }
   #sidebar ul li {
-    font-size: 16px; }
+    font-size: 16px; 
+  }
     #sidebar ul li > ul {
-      margin-left: 10px; }
+      margin-left: 10px; 
+    }
       #sidebar ul li > ul li {
-        font-size: 14px; }
+        font-size: 14px; 
+      }
     #sidebar ul li a {
       padding: 10px 0;
       display: block;
       color: thistle;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+    }
       #sidebar ul li a:hover {
-        color: #f8b739; }
+        color: #8f0d56;
+        background-color: #f8b739; 
+      }
     #sidebar ul li.active > a {
       background-color: transparent;
-      color: #f8b739; }
+      color: #fff; 
+    }
   @media (max-width: 991.98px) {
     #sidebar {
       margin-left: -300px; }
