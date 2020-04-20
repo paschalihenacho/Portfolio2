@@ -25,14 +25,22 @@
   -o-transition: all 0.3s;
   transition: all 0.3s; }
 
-  #name {
-    color: #fff;
-    font-size: 18px;
+  #profileName {
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
 } 
-  #title{
-    color: #fff;
+
+  #title {
     font-size: 14px;
-  }
+    font-family: "fantasy";
+    font-weight: lighter;
+}
+
+  #title,
+  #profileName  {
+  color: #ffc107 !important;
+}
 
   .cvTitle{
     text-align: center;
@@ -179,10 +187,7 @@ h1, h2, h3, h4, h5,
   line-height: 5px;
 }
 
-#title,
-#name {
-  color: #ffffff !important;
-}
+
 #navbarName{
   position: absolute !important;
   display: block;
@@ -261,17 +266,13 @@ h2 {
     background-color: transparent;
 }
 
-#title {
-    font-size: 16px;
-    font-family: "fantasy";
-    font-weight: lighter;
-}
-
-#name {
+/* 
+{
     float: left;
     font-size: large;
+    font-family: 'Cardo', serif;
     font-weight: 900;
-}
+} */
 
 #profileImage {
     float: left;
@@ -362,11 +363,19 @@ h2 {
     color: #fff !important;
     
 }
+
+.sidebarBtn{
+  border-color: #8f0d56;
+  border-radius: 40px;
+  background-color: transparent;
+  color: #ffc107 !important; 
+}
 .btn{
   border-color: #8f0d56;
   border-radius: 40px;
   background-color: transparent;
-  color: #007bff;
+  color: #076aff;
+  font-weight: bolder;
 }
 #btn-submit {
   width: 100%;
