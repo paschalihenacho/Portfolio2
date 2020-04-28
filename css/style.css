@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5,
 
   h1 {
     color: #8f0d56;
-    ;
+   font-family:  'Great Vibes', cursive;
     font-weight: bold;
     text-align: center;
 }
@@ -399,28 +399,6 @@ h2 {
 /* **********SKILL************** */
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 
-/* $font-family: 'PT Sans', sans-serif;
-
-$li-padding: 5px;
-
-// colors
-$background-color: #1a1a1a;
-$progressbar-title-color: #fff;
-
-$red: #c0392b;
-$blue: #1199ff;
-$purple: #9b59b6;
-$orange: #ffa500;
-$green: #27ae60;
-
-$animation-delay: .7s;
-
-@mixin border-radius($radius){
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius; 
-}*/
 
 *,
 *:before,
@@ -431,12 +409,6 @@ $animation-delay: .7s;
   box-sizing: border-box;
 }
 
-html,body{
-  background: $background-color;
-  width: 100%;
-  height: 100%;
-  font-family: $font-family;
-}
 
 .skills-bar-container{
   position: relative;
@@ -464,7 +436,7 @@ html,body{
         position: absolute;
         right: $li-padding;
       }
-    }// end progressbar-title
+    }
     
     .bar-container{
       background: #555;

@@ -34,6 +34,8 @@ Provide instructions and examples for use. Include screenshots as needed.
 . https://colorlib.com/wp/bootstrap-sidebar/
 . Profile background Photo by Mazhar Zandsalimi on Unsplash.
 . Profile background Photo by OC Gonzalez on Unsplash.
+. Profile background Photo by Martin Woortman
+. Profile background Photo by Wilhelm Gunkel
 
 List your collaborators, if any, with links to their GitHub profiles.
 
