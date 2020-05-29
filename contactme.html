@@ -22,49 +22,46 @@
 		<div class="wrapper d-flex align-items-stretch">
 			<nav id="sidebar">
 				<div class=" p-3">
-             <div class="img bg-wrap text-center py-4" style="background-image: url(./assets/images/profileBackground.png);">
+					<!-- style="background-image: url(./assets/images/profileBackground.png);" -->
+             <div class="img bg-wrap text-center py-4" >
                 <div >
-                    <div href="#" class="img logo rounded-circle mb-5"  style="background-image: url(./assets/images/ProfileImage.png);"></div>
-                    <h3 id="profileName"><strong>Paschal Ihenacho</strong></h3>
+                    <div href="#about-me" class="img logo rounded-circle mb-5"  style="background-image: url(./assets/images/ProfileImage.png);"></div>
+                    <h2 id="profileName"><strong>Paschal Ihenacho</strong></h2>
                     <h3 id="title">Web & Mobile App Developer</h3>
                 </div>
             </div>
-                  <ul class="list-unstyled components mb-5">
-                    <li class="cvTitle">CV</li>
-                    <li class="active">
-                        <a href="#">Executive Summary</a>
-                    </li>
-                    <li>
-                      <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" 
-                      class="dropdown-toggle">Work Experience</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                      <li><a href="#">University of Oklahoma Medical Center</a></li>
-                      <li><a href="#">Honeywell</a></li>
-                      <li><a href="#">Improving Enterprise</a></li>
-                      <li><a href="#">Hamper (Start Up)</a></li>
-                      <li><a href="#">Neudesic (Internship)</li>
-                    </ul>
-                  </li>
-                  <li><a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Education</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                      <li><a href="#">Web Development Boot Camp</a></li>
-                      <li><a href="#">BS Computer Science </a></li>
-                      <li><a href="#">ASS Computer Science </a></li>
-                    </ul>
-                    </li>
-                    <li><a href="#skills">Skills</a></li>
-                  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#">References</a></li>
-                  </ul>
-              </div>
-            </nav>
+                <ul class="list-unstyled components mb-5">
+                    <li class="cvTitle align-items-stretch">CV</li>
+                    <li class="active"><a href="#">Executive Summary</a></li>
+	          		<li><a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Work Experience</a>
+			            <ul class="collapse list-unstyled" id="homeSubmenu">
+		                	<li><a href="#">University of Oklahoma Medical Center<br><small>(Web & Mobile Developer)</small></a></li>
+		                	<li><a href="#">Honeywell<br><small>(Material Coordinator)</small></a></li>
+		                	<li><a href="#">Improving Enterprise<br><small>(Web & Mobile Developer)</small></a></li>
+		                	<li><a href="#">Hamper (Start Up)<br><small>(Web & Mobile Developer)</small></a></li>
+		                	<li><a href="#">Neudesic (Internship)<br><small>(Application Support Specialist)</small></a></li>
+			            </ul>
+	          		</li>
+	          		<li><a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Education</a>
+              			<ul class="collapse list-unstyled" id="pageSubmenu">
+                			<li><a href="#">Web Development Boot Camp</a></li>
+                			<li><a href="#">BS Computer Science </a></li>
+                			<li><a href="#">ASS Computer Science </a></li>
+              			</ul>
+              		</li>
+              		<li><a href="#skills">Skills</a></li>
+	          		<li><a href="#projects">Projects</a></li>
+	          		<li><a href="#">References</a></li>
+            	</ul>
+        	</div>
+    	</nav>
 
         <!-- Page Content  -->
       <div id="content" class="p-4 p-md-5">
 
         <nav class="navbar navbar-expand-lg ">
+            <!-- <h3 id="navbarName">Paschal Ihenacho</h3> -->
           <div class="container-fluid">
-
             <button type="button" id="sidebarCollapse" class="sidebarBtn btn btn-primary">
               <i class="fa fa-bars"></i>
               <span class="sr-only">Toggle Menu</span>
@@ -72,7 +69,7 @@
             <button class="btn sidebarBtn d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars"></i>
             </button>
-
+            
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link nav-titles" href="index.html">About Me</a></li>
@@ -82,6 +79,7 @@
                     <li class="nav-item"><a class="nav-link nav-titles" href="contactme.html">Contact Me</a></li>
                 </ul>
             </div>
+  
           </div>
         </nav>
 
