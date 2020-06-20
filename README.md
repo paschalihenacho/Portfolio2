@@ -22,12 +22,6 @@ If your README is very long, add a table of contents to make it easy for users t
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
-## Usage
-![GitHub Logo](/ScreenShots/1.png)
-![GitHub Logo](/ScreenShots/2.png)
-![GitHub Logo](/ScreenShots/3.png)
-![GitHub Logo](/ScreenShots/4.png)
-
 ## Credits
 
 . https://bootstrapious.com/p/bootstrap-sidebar
