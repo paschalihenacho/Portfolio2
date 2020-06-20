@@ -1,6 +1,8 @@
 
 # Portfolio
-LIVE: https://paschalihenacho.github.io/Portfolio/
+LIVE Link: 
+- [Portfolio](https://paschalihenacho.github.io/Portfolio/)
+
 # Description
 This site contains a detail description of my professional profile.
 I had some sample projects under my portfolio tab.
@@ -21,8 +23,10 @@ If your README is very long, add a table of contents to make it easy for users t
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
+![GitHub Logo](/ScreenShots/1.png)
+![GitHub Logo](/ScreenShots/2.png)
+![GitHub Logo](/ScreenShots/3.png)
+![GitHub Logo](/ScreenShots/4.png)
 
 ## Credits
 
