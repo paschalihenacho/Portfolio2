@@ -20,6 +20,13 @@
   font-size: x-large;
 }
 
+.fa-github,.github-btn {
+  color: #000000;
+}
+
+.fa-github,.github-btn:hover {
+	color: white;
+}
 
 
 .fa-facebook {
